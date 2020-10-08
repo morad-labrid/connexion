@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="connexion.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Créer un compte</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/LOGO.png">
+    </header>
+    <main>
+        <section class="box">
+            <form class="register">
+                <h1>Créer un compte</h1>
+                <div class="wrapper">
+                    <div class="">
+                        <label for="name">Nom</label>
+                        <input type="text" name="Nom" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Prénom</label>
+                        <input type="text" name="prenom" id="lastname" placeholder="Votre Prénom" required>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="">
+                        <label for="email">Adresse email</label>
+                        <input type="email" name="adresse email" id="email" placeholder="jhon-doe@exemple.com" required>
+                    </div>
+                    <div>
+                        <label for="username">Identifiant</label>
+                        <input type="text" name="identifiant" id="username" placeholder="pseudo" required>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" name="mot de passe" id="password" placeholder="********" required>
+                    </div>
+                    <div>
+                        <label for="password">Confirmer mot de passe</label>
+                        <input type="password" name="mot de passe" id="password" placeholder="********" required>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="date">
+                        <label for="date">Date de naissance / Sexe</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+                    <div class="sexe">
+                        <label for="sexef">Femme</label>
+                        <input type="radio" name="sexe" id="sexef" checked>
+                        <label for="sexeh">Homme</label>
+                        <input type="radio" name="sexe" id="sexeh">
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="custom-select">
+                        <select name="etude" id="etude" required>
+                            <option value="">Niveau d'étude</option>
+                            <option value="1">CAP, BEP</option>
+                            <option value="2">Baccalauréat</option>
+                            <option value="3">DEUG, BTS, DUT, DEUST</option>
+                            <option value="4">Licence, Licence LMD, licence professionnelle	</option>
+                            <option value="5">Maîtrise</option>
+                            <option value="5">Master, DEA, DESS, diplôme d'ingénieur</option>
+                            <option value="5">Doctorat, habilitation à diriger des recherches</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="wrapper">
+                    <div class="textarea">
+                        <textarea name="text" id="text" cols="30" rows="10" placeholder="Parlez-nous de vous "></textarea>
+                    </div>
+                </div>
+
+                <input class="button" type="submit" value="inscription">
+                <div class="text__bottom">
+                    <p><a href="connexion.html">déjà inscrit?<br>Se connecter</a></p>
+                    <p><a href="motdepasse.html">Mot de passe<br>oublié ?</a></p>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Laplateforme. © 2020 all rights reserved</p>
+        </section>
+    </footer>
+</body>
+
+</html>
